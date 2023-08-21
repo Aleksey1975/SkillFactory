@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.flatpages',
     'fpages',
     'simpleapp',
+    'django_filters',
 
 
 ]
@@ -138,3 +139,5 @@ STATICFILES_DIRS = [
     BASE_DIR/'static',
 
 ]
+
+# python -m pip install django-filter
